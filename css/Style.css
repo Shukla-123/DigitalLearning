@@ -250,18 +250,6 @@ header .container .col-md-7 p {
     border-left: 4px solid black;
     border-top: 8px solid black;
 }
-
-.section-1 .row .col-md-6 .panel h1 {
-    font-weight: bold;
-    padding: 0.4em 0;
-    font-size: 2em;
-}
-
-.section-1 .row .col-md-6 .panel p {
-    font-size: 0.9em;
-    color: rgba(0, 0, 0, 0.5);
-}
-
 /*  Section 2  */
 
 .cover {
@@ -420,28 +408,32 @@ header .container .col-md-7 p {
 }
 
 .section-4 .team {
-    padding: 10vmin 4vmin;
+    padding: 5vmin 2vmin;
 }
 
 .section-4 .card {
-    width: 22em;
-    margin-top: 10vmin;
+    width: 24em;
+    margin-top: 3vmin;
 }
 
 .section-4 .card .card-text {
-    padding: 0.5em;
+    padding: 0.3em;
 }
 
 .section-4 .card-body>a {
     font-size: 1.5em;
 }
 
-.section-4 .carousel-item {
-    padding-left: 3rem;
+#cardcustom{
+    text-align: center;
+    padding: 8%
+}
+#cardcustom .col-md-4{
+    padding: 2%;
 }
 
 .border-radius {
-    border-radius: 340px;
+    border-radius: 20%px;
     width: 60%;
 }
 
